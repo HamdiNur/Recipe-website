@@ -5,18 +5,18 @@ const recipeContainer=document.querySelector('.recipe-container');
 
 
 //function to get recipes
-// const fetchRecipes=async(query)=>{
-//     const data= await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${query}`);
-//     const response= await data.json();
-//     response.meals.forEach(meal=>{
-//         // console.log(meal);
-//         const recipeDiv=document.createElement('div');
-//         recipeDiv.classList.add('.recipe');
-//         recipeDiv.innerHTML=` <img src="${meal.strMealThumb}" >
+const fetchRecipes=async(query)=>{
+    const data= await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${query}`);
+    const response= await data.json();
+    response.meals.forEach(meal=>{
+        // console.log(meal);
+        const recipeDiv=document.createElement('div');
+        recipeDiv.classList.add('.recipe');
+        recipeDiv.innerHTML=` <img src="${meal.strMealThumb}" >
         
-//         `
-//         recipeContainer.appendChild(recipeDiv);
-//     })
+        `
+        recipeContainer.appendChild(recipeDiv);
+    })
  
 
 }
