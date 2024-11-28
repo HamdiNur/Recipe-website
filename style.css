@@ -64,15 +64,15 @@ form button[type="submit"]:hover{
 
 /* Responsive*/
 
-/* @media screen and (max-width:600px){
+@media screen and (max-width:600px){
     header nav{
         flex-direction: column;
 
     }
-    header nav form{
+    /* header nav form{
         width: 80%;
         margin-top: 20px;
 
 
-    }
-} */
+    } */
+}
