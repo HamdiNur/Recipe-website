@@ -21,11 +21,11 @@ const fetchRecipes=async(query)=>{
 
 }
 
-// searchBtn.addEventListener('click',(e)=>{
-//     e.preventDefault();
-//     const searchInput=searchBox.value.trim();
+searchBtn.addEventListener('click',(e)=>{
+    e.preventDefault();
+    const searchInput=searchBox.value.trim();
      
 
-//     fetchRecipes(searchInput);
-//     // console.log("Button Clicked")
-// })
+    fetchRecipes(searchInput);
+    // console.log("Button Clicked")
+})
