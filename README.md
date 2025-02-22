@@ -34,7 +34,7 @@ cd Recipe-website
 🔗 Deployed Version: https://recipe-websit.vercel.app/
 
 ## 🛠️ How It Works
-- ** Type a recipe name in the search box (e.g., "Pasta").
-- ** Click the Search button, and it fetches the results.
-- ** Click "View Recipe" to open a detailed view with ingredients and cooking - ** instructions.
-- ** Close the recipe details using the ❌ close button.
+- **Type**  a recipe name in the search box (e.g., "Pasta").
+- **Click** the Search button, and it fetches the results.
+- **Click** "View Recipe" to open a detailed view with ingredients & cooking instructions.
+- **Close** the recipe details using the ❌ close button.
