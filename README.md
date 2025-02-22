@@ -29,11 +29,12 @@ A simple web application that allows users to search for recipes and view detail
 cd Recipe-website
 
 3. Open index.html in a browser.
-🌍 Live Demo
+## 🌍 Live Demo
+
 🔗 Deployed Version: https://recipe-websit.vercel.app/
 
 ## 🛠️ How It Works
-Type a recipe name in the search box (e.g., "Pasta").
-Click the Search button, and it fetches the results.
-Click "View Recipe" to open a detailed view with ingredients and cooking instructions.
-Close the recipe details using the ❌ close button.
+- ** Type a recipe name in the search box (e.g., "Pasta").
+- ** Click the Search button, and it fetches the results.
+- ** Click "View Recipe" to open a detailed view with ingredients and cooking - ** instructions.
+- ** Close the recipe details using the ❌ close button.
